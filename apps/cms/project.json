@@ -1,0 +1,15 @@
+{
+    "name": "cms",
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "apps/cms",
+    "projectType": "application",
+    "targets": {
+      "serve": {
+        "executor": "@nrwl/node:run-commands",
+        "options": {
+            "command": "yarn develop",
+            "cwd": "apps/cms"
+        }
+      }
+    }
+  }
