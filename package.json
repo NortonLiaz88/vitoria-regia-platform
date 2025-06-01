@@ -30,10 +30,11 @@
     "@nrwl/node": "^19.8.4",
     "@nrwl/react-native": "^19.8.4",
     "@nx/cypress": "19.8.4",
+    "@nx/esbuild": "21.1.2",
     "@nx/eslint": "19.8.4",
     "@nx/eslint-plugin": "19.8.4",
     "@nx/jest": "20.8.2",
-    "@nx/js": "20.8.2",
+    "@nx/js": "21.1.2",
     "@nx/nest": "19.8.4",
     "@nx/next": "19.8.4",
     "@nx/node": "^21.1.2",
@@ -62,6 +63,7 @@
     "babel-jest": "^29.7.0",
     "babel-plugin-styled-components": "1.10.7",
     "cypress": "^13.13.0",
+    "esbuild": "^0.19.2",
     "eslint": "^9.8.0",
     "eslint-config-next": "14.2.3",
     "eslint-config-prettier": "^9.0.0",
@@ -90,6 +92,8 @@
   },
   "workspaces": [
     "packages/*",
-    "apps/mobile"
-  ]
+    "apps/mobile",
+    "apps/medusa"
+  ],
+  "packageManager": "yarn@3.2.3+sha512.f26f951f67de0c6a33ee381e5ff364709c87e70eb5e65c694e4facde3512f1fa80b8679e6ba31ce7d340fbb46f08dd683af9457e240f25a204be7427940d767e"
 }
